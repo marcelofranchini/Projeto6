@@ -27,14 +27,14 @@ let a = 1 // se é adm ou nao
 const Home = (props) => {
 
     return (
-        <Drawer.Navigator initialRouteName="Dashboard">
+        <Drawer.Navigator initialRouteName="Correspondências">
 
-            <Drawer.Screen name="Dashboard" component={Dashboard} />
+            <Drawer.Screen name="Correspondências" component={Dashboard} />
             {
                 a === 1 ?
                     <>
                         <Drawer.Screen name="Cadastro Morador" component={CadastroMorador} />
-                        <Drawer.Screen name="Cadastro Correspondecia" component={CadastroCorrespondencia} />
+                        <Drawer.Screen name="Cadastro Correspondência" component={CadastroCorrespondencia} />
                     </>
                     :
                     null

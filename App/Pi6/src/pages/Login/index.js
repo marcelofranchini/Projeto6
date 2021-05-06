@@ -35,7 +35,7 @@ const Login = (props) => {
     }
 
     return (
-        <SafeAreaView style={{ backgroundColor: '#D81F26', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <SafeAreaView style={{ backgroundColor: '#CDC9C9', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
             <ImageBackground source={imagemBack} style={{ width: 500, flex: 1, resizeMode: "cover", justifyContent: "center" }}>
                 <ScrollView>
                     <View style={{ marginTop: 180, justifyContent: 'center', alignItems: 'center' }}>
@@ -59,9 +59,6 @@ const Login = (props) => {
                         />
 
 
-                        {/* <TouchableOpacity onPress={logar} style={{ backgroundColor: '#ffff' }}>
-                            <Text>Entrar</Text>
-                        </TouchableOpacity> */}
 
                         <Button
                             title="Entrar"
